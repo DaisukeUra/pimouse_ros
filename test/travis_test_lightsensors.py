@@ -20,7 +20,7 @@ class LightsensorTest(unittest.TestCase):
 		self.assertEqual(vs.left_forward, lf, "different value: left_forward")
 		self.assertEqual(vs.left_side, ls, "different value: left_side")
 		self.assertEqual(vs.right_side, rs, "different value: right_side")
-		self.assertEqual(vs.right_forward, lf, "different value: right_forward")
+		self.assertEqual(vs.right_forward, rf, "different value: right_forward")
 		self.assertEqual(vs.sum_all, lf+ls+rs+rf, "different value: sum_all")
 		self.assertEqual(vs.left_forward, lf+rf, "different value: sum_forward")
 		
