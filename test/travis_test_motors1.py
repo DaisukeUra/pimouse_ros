@@ -10,7 +10,7 @@ from geometry_msgs.msg import Twist
 class MotorTest(unittest.TestCase):
     def file_check(self,dev,value, message):
         with open("/dev/" + dev, "r") as f:
-            self.assertEqual(f.readline(),str(value+"\n", message))
+            self.assertEqual(f.readline(), str(value) + "\n", message)
 
 
     def test_node_exist(self):
