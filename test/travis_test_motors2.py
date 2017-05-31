@@ -8,6 +8,7 @@ import rospy
 import time
 from pimouse_ros.msg import MotorFreqs
 from geometry_msgs.msg import Twist
+from std_srv.srvs import Trigger, TriggerResponse
 
 
 class MotorTest(unittest.TestCase):
